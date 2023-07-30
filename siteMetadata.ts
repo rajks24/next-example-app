@@ -1,6 +1,6 @@
 
 const siteMetadata = {
-  title: "NextApp",
+  title: "Next Example App",
   role: "Devops enthusiast",
   author: "Rajesh Singh",
   authorImage: "/images/image.jpg",
