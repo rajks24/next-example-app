@@ -25,12 +25,12 @@ export default function Footer() {
       <ul className="flex flex-wrap items-center text-sm font-medium text-gray-500 dark:text-gray-400 md:pb-0 pb-3 
           sm:mt-0">
         <li>
-          <Link href="https://github.com" >
+          <Link href={siteMetadata.siteRepo} >
               <Image src={githubIcon} alt="TwitterIcon" className='mx-3'  height={22} width={22} />
           </Link>
         </li>
         <li>
-          <Link href="https://twitter.com/rajinh24" >
+          <Link href={siteMetadata.twitter} >
               <Image src={twitterIcon} alt="TwitterIcon" className='mr-5'  height={22} width={22} />
           </Link>
         </li>
